@@ -1,0 +1,30 @@
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  border: 1px solid #000;
+  padding: 12px 8px 12px 8px;
+}
+
+.text {
+  display: block;
+}
+
+.inputName,
+.inputTel {
+  border: 1px solid rgb(207, 191, 191);
+}
+
+.btnContact {
+  background-color: #fff;
+  width: 100px;
+  border: 1px solid rgb(207, 191, 191);
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+.btnContact:hover {
+  background-color: #2196f3;
+}

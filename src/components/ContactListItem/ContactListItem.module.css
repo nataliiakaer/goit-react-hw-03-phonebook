@@ -1,0 +1,30 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+}
+
+.contactContainer::before {
+  content: '';
+  background: black;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.btnDelete {
+  background-color: #fff;
+  border: 1px solid rgb(207, 191, 191);
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+.btnDelete:hover {
+  background-color: #2196f3;
+}
